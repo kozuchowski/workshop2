@@ -5,6 +5,10 @@ public class User {
     private String username;
     private String password;
 
+    public void printInfo (){
+        System.out.println("id: " + id + ", email: " + email + ", username " + username + ", password" + password );
+    }
+
     public int getId() {
         return id;
     }
